@@ -70,7 +70,6 @@ build
 packages
 temp
 trades
-configLocal.ts
 configLocal2.ts
 config.json
 public/js/telegram-app.js
