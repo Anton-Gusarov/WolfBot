@@ -3,6 +3,26 @@ This is the source of the Crypto currency trading bot running on: https://wolfbo
 
 It is written in TypeScript for NodeJS + MongoDB.
 
+## Local setup
+1. Intstall Python
+```
+brew install pyenv
+pyenv install <latest > 3.4 required>
+pyenv global <latest>
+```
+Follow instructions in pyenv github page to configure symlinks
+2. Clone, yarn.
+3. Mongodb url in localconfig.
+4. tsc
+5.
+```
+cd ./node_modules/@ekliptor/bit_models
+tsc
+cd ../../../
+```
+6. node app.js --debug --config=BollingerBands --trader=Backtester --noUpdate --noBrowser
+or
+In VS code launch run
 ## Features
 * **Trading**: buying + selling, portfolio management (sync balances with exchanges)
 * **Margin Trading**: leveraged trading including short selling and futures trading
